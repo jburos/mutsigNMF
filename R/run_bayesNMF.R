@@ -21,7 +21,7 @@
 #'
 #' @export
 run_bayesNMF <- function(mat, tumor.type = 'tumor.type', max_k = 10, n_runs = 10,
-                         iter_per_run = 100000, tol = 1.e-07, a0 = 10, phi = 1.0,
+                         iter_per_run = 10000, tol = 1.e-07, a0 = 10, phi = 1.0,
                          prior = 'L1KL', hyper = FALSE
                          ) {
 
